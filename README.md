@@ -23,13 +23,13 @@ pip install -r requirements.txt
 ##Run
 Run analysis using features derived from convolutional neural networks  
 ```
-python runExpCNN-paper
+python runExpCNN-paper.py
 ```
 Run analysis using features computed with Histogram of Oriented Gradients (HOG)  
 ```
-python runExpHOG-paper
+python runExpHOG-paper.py
 ```
 Run analysis using features computed with Local Binary Patterns (LBP)  
 ```
-python runExpLBP-paper
+python runExpLBP-paper.py
 ```
