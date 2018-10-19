@@ -25,8 +25,6 @@ if __name__ == '__main__':
     yPredictionArr, yPredProbArr = utils.crossValidation(X, y)
     utils.classSigTests(y, yPredProbArr, usedClasses)
 
-    # Compute statistical significance
-    print(le_me.classification_report(y, yPredictionArr, target_names=usedClasses))
 
     # Compute confusion matrix
     confMat = le_me.confusion_matrix(y, yPredictionArr)
@@ -34,6 +32,10 @@ if __name__ == '__main__':
 
     # Compute confidence intervals
     utils.bootStrapMetrics(y, yPredictionArr, dataRatio=0.8)
+
+    # Compute statistical significance
+    print('-' * 20, 'One vs. all tests')
+    print(le_me.classification_report(y, yPredictionArr, target_names=usedClasses))
 
     # plot confusion matrix
     plt.figure()
