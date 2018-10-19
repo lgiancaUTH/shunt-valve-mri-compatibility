@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print('loading ', featFile)
     fileDic = np.load(featFile)
     # set up class names
-    usedClasses = ['Codman-Hakim', 'Strata II', 'Strata NSC', 'Sophysa Polaris - SPV', 'Codman CERTAS', 'Miethke proGAV']
+    usedClasses = ['Strata II - NSC', 'Codman-Hakim', 'Sophysa Polaris - SPV', 'Codman CERTAS', 'Miethke proGAV']
 
 
     # Cross validation
