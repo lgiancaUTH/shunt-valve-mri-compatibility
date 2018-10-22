@@ -15,7 +15,16 @@ This code has been tested with Python 3.6 and pip
 git clone https://github.com/lgiancaUTH/shunt-valve-mri-compatibility.git
 cd shunt-valve-mri-compatibility
 ```
-Optionally, create a virtual environment, and finally
+Optionally, create a virtual environment with
+```
+conda create -n valve-env python=3.6 
+```
+sss
+```
+conda activate valve-env
+```
+
+, and finally
 ```
 pip install -r requirements.txt
 ```
