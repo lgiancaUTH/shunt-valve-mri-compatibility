@@ -3,7 +3,7 @@
 This repository contains the supporting code for the manuscript:
 
 
->L Giancardo, O Arevalo, A Tenreiro, R Riascos and E Bonfante. MRI Compatibility: Automatic Brain Shunt Valve Recognition using Feature Engineering and Deep Convolutional Networks. Scientific Reports (in press)
+>L Giancardo, O Arevalo, A Tenreiro, R Riascos and E Bonfante. MRI Compatibility: Automatic Brain Shunt Valve Recognition using Feature Engineering and Deep Convolutional Networks. Scientific Reports (in press).
 
 
 In this manuscript, we describe a X-rays-based implanted device identification system for MRI safety and devise a pilot study to test the feasibility of the automatic image recognition component. We evaluate machine learning-based methods to identify different cerebrospinal fluid shunt valves from 416 skull X-rays clinical images. Our best performing method identified the valve type correctly 96% [CI 94-98%] of the times (CI: confidence intervals, precision 0.96, recall 0.96, f1-score 0.96), tested using a stratified cross-validation approach to avoid chances of overfitting.
@@ -19,12 +19,12 @@ Optionally, create a virtual environment with
 ```
 conda create -n valve-env python=3.6 
 ```
-sss
+activate it
 ```
 conda activate valve-env
 ```
 
-, and finally
+and finally, install the required dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -43,4 +43,6 @@ Run analysis using features computed with Local Binary Patterns (LBP)
 python runExpLBP-paper.py
 ```
 ## Other information
-We refer to the original paper for more infomation and acknowledgements
+This code is free to use for any non-commenrcial purpose provided that the original publication is cited. 
+
+We refer to the original publication for additional infomation and acknowledgements.
