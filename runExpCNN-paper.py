@@ -44,7 +44,7 @@ if __name__ == '__main__':
     print('-'*20, 'One vs. all tests')
     utils.classSigTests(y, yPredProbArr, usedClasses)
 
-    # plot confusion matrix
-    plt.figure()
-    utils.plot_confusion_matrix(confMat, usedClasses, normalize=True )
-    plt.show()
+    # # plot confusion matrix
+    # plt.figure()
+    # utils.plot_confusion_matrix(confMat, usedClasses, normalize=True )
+    # plt.show()

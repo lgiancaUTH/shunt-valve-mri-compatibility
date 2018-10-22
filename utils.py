@@ -191,7 +191,7 @@ def crossValidation( Xin,yin ):
         testX = scaler.transform(testX)
 
         #-- classify
-        mod1 = le_lm.LogisticRegression(penalty='l2', C=1.0)
+        mod1 = le_lm.LogisticRegression(penalty='l2', C=1.0, solver='liblinear', multi_class='ovr')
         # --
 
         # -- Predict
