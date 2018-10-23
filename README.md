@@ -15,12 +15,10 @@ This code has been tested with Python 3.6 and pip
 git clone https://github.com/lgiancaUTH/shunt-valve-mri-compatibility.git
 cd shunt-valve-mri-compatibility
 ```
-Optionally, create a virtual environment with
+Optionally, create a (conda) virtual environment and activate it
 ```
 conda create -n valve-env python=3.6 
-```
-activate it
-```
+
 conda activate valve-env
 ```
 
@@ -43,6 +41,6 @@ Run analysis using features computed with Local Binary Patterns (LBP)
 python runExpLBP-paper.py
 ```
 ## Other information
-This code is free to use for any non-commenrcial purpose provided that the original publication is cited. 
+This code is free to use for any non-commercial purpose, provided that the original publication is cited. 
 
 We refer to the original publication for additional infomation and acknowledgements.
