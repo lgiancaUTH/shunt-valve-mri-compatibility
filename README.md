@@ -41,6 +41,6 @@ Run analysis using features computed with Local Binary Patterns (LBP)
 python runExpLBP-paper.py
 ```
 ## Other information
-This code is free to use for any non-commercial purpose, provided that the original publication is cited. 
+This code is free to use for any non-commercial purposes, provided that the original publication is cited. 
 
 We refer to the original publication for additional infomation and acknowledgements.
