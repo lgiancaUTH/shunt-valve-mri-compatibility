@@ -4,7 +4,6 @@ This repository contains the supporting code for the manuscript:
 
 
 >L Giancardo, O Arevalo, A Tenreiro, R Riascos and E Bonfante. MRI Compatibility: Automatic Brain Shunt Valve Recognition using Feature Engineering and Deep Convolutional Networks. Scientific Reports volume 8, Article number: 16052 (2018).
-
 https://www.nature.com/articles/s41598-018-34164-6
 
 
