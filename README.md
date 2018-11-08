@@ -21,7 +21,7 @@ Optionally, create a (conda) virtual environment and activate it
 ```
 conda create -n valve-env python=3.6 
 
-conda activate valve-env
+source activate valve-env
 ```
 
 and finally, install the required dependencies
